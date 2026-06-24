@@ -13,7 +13,7 @@ programa
             escreva("2 - Ver media\n")
             escreva("3 - Sair\n")
             leia(opcao)
-
+//Escolhe uma das opções e execute
             escolha(opcao)
             {
                 caso 1:
@@ -26,7 +26,7 @@ programa
                     escreva("Digite a segunda nota: ")
                     leia(nota2)
 
-                    media = (nota1 + nota2) / 2
+                    media = (nota1 + nota2) / 2  //Soma e divisão de notas para descobrir média final
 
                     se(media >= 7)
                     {
